@@ -5,7 +5,7 @@ public class Main {
         boolean registred = true;
         long expected = 30;
         long actual = service.calculate(amount, registred);
-        boolean passed = expected == boolean;
+        boolean passed = expected == actual;
         System.out.println(passed);
     }
 }
