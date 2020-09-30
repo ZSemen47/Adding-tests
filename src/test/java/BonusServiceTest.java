@@ -1,8 +1,8 @@
-import static org.junit.jupiter.api.Assertions.*;
-
+import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 class BonusServiceTest {
 
-    @org.junit.jupiter.api.Test
+    @Test
     void calculate() {
         BonusService service = new BonusService();
         long amount = 1000_60;
